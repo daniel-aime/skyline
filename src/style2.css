@@ -1,4 +1,129 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Six+Caps&display=swap");
+html,
+body {
+  background-color: #000;
+  color: #fff;
+  overflow-x: hidden;
+}
 
-/*# sourceMappingURL=style.css.map */
+.page-one {
+  background-image: url("img/header_bg_1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.page-one .one-title {
+  padding-top: 13%;
+  padding-bottom: 6%;
+  text-align: center;
+}
+.page-one .one-title h4 {
+  font-family: "Abel", sans-serif;
+  font-size: 30px;
+}
+.page-one .one-title h2 {
+  font-family: "Six Caps", sans-serif;
+  font-size: 220px;
+}
+.page-one .one-title p {
+  font-family: "Abel", sans-serif;
+}
+.page-one .one-title .p3 {
+  margin-bottom: -3px;
+}
+.page-one .one-title h3 {
+  padding-top: 10%;
+  text-transform: uppercase;
+  font-family: "Abel", sans-serif;
+  font-size: 20px;
+}
+
+.page-two {
+  margin-top: 140px;
+}
+
+.left {
+  padding-left: 286px;
+  margin-top: 140px;
+}
+.left .left-title h4,
+.left .left-title h3 {
+  font-family: "Six Caps", sans-serif;
+  padding-left: 100px;
+}
+.left .left-title h4 {
+  font-size: 40px;
+  margin-bottom: -15px;
+}
+.left .left-title h3 {
+  font-size: 70px;
+  margin-bottom: 40px;
+}
+.left .left-subtitle {
+  padding-left: 170px;
+}
+.left .left-subtitle p {
+  font-size: 20px;
+  font-family: "Abel", sans-serif;
+}
+.left .left-img img {
+  width: 300px;
+  height: 150px;
+}
+
+.p1,
+.p2 {
+  margin-bottom: -3px;
+}
+
+.p3 {
+  margin-bottom: 60px;
+}
+
+.right {
+  margin-left: -30px;
+}
+.right .right-title .title-1 h3,
+.right .right-title .title-2 h3 {
+  font-size: 16px;
+  font-family: "Abel", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: -3px;
+}
+.right .right-img {
+  margin-top: 60px;
+}
+.right .right-img img {
+  width: 800px;
+  height: 550px;
+}
+
+.navigate {
+  margin-top: 40px;
+  display: flex;
+}
+.navigate .slide-left h4,
+.navigate .slide-right h4 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: "Abel", sans-serif;
+}
+.navigate .slide-left hr,
+.navigate .slide-right hr {
+  height: 1px;
+  width: 50px;
+  color: #fff;
+}
+.navigate .slide-left h4 {
+  margin-top: -10px;
+}
+.navigate .slide-right h4 {
+  text-align: right;
+  padding-right: 15px;
+}
+.navigate .slide-right hr {
+  margin-left: 100%;
+  margin-top: -18px;
+}
+
+/*# sourceMappingURL=style2.css.map */
